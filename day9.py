@@ -9,5 +9,6 @@ chart_data = pd.DataFrame(
   columns=['a', 'b', 'c']
 )
 
+print(f"chart_data: ${chart_data}")
 st.line_chart(chart_data)
 
